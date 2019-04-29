@@ -1,12 +1,11 @@
-from kivy.app import App 
-from kivy.uix.widget import Widget 
-from kivy.uix.button import Button
-from kivy.uix.label import Label
-from kivy.uix.gridlayout import GridLayout
-from kivy.uix.boxlayout import BoxLayout
-
-
+from kivy.app import App
 from kivy.config import Config
+from kivy.uix.boxlayout import BoxLayout
+from kivy.uix.button import Button
+from kivy.uix.gridlayout import GridLayout
+from kivy.uix.label import Label
+from kivy.uix.widget import Widget
+
 Config.set('graphics', 'resizable', 0)
 Config.set('graphics', 'width', 400)
 Config.set('graphics', 'haigth', 500)
